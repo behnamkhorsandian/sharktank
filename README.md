@@ -1,9 +1,16 @@
-[![Version](https://img.shields.io/badge/Version-0.0.1-blue)](https://sharktank.streamlit.app)
-[![Status](https://img.shields.io/badge/Status-Under_revision-yellow)](https://sharktank.streamlit.app)
-[![Revision](https://img.shields.io/badge/Last_Edit-03_Nov_2023-green)](https://sharktank.streamlit.app)
+[![Version](https://img.shields.io/badge/Version-0.1.1-blue)](https://sharktank.streamlit.app)
+[![Status](https://img.shields.io/badge/Status-Coinalyze_Data-yellow)](https://sharktank.streamlit.app)
+[![Revision](https://img.shields.io/badge/Last_Edit-04_Nov_2023-green)](https://sharktank.streamlit.app)
 
 # Sharktank 🦈
 We are going to do intresting things here...
+
+## Streamlit process
+Just clone the repo in your system, open a terminal in the folder:
+```
+streamlit run Home.py
+```
+That's it!
 
 ## Github process
 
@@ -32,3 +39,5 @@ git push -u origin main
 git reset --hard <commit-sha1-id>
 git push origin HEAD --force
 ```
+
+
