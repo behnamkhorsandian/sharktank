@@ -12,6 +12,10 @@ import math
 import time
 import csv
 
+import plotly.graph_objects as go
+import plotly.express as px
+from plotly.subplots import make_subplots
+import plotly.io as pio
 
 
 # --- PAGE CONFIG (BROWSER TAB) ---
@@ -356,3 +360,10 @@ with st.container():
             st.session_state.dataframe.to_csv(f"assets/{st.session_state.lastpair}.csv", index=False)
             
             
+    # CANDLESTICK CHART
+    if len(st.session_state.rawdata)!=0:
+        df = st.session_state.dataframe
+        candlestick_trace = go.Candlestick(x=df['DateTime'],open = df['Open'],high=df['High'],low=df['Low'],close=df['Close'])
+        fig = make_subplots(rows=1, cols=1, shared_xaxes=True, vertical_spacing=0.0)
+        fig.add_trace(candlestick_trace, row=1, col=1)
+        st.plotly_chart(fig, theme="streamlit")

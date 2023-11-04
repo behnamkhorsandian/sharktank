@@ -1,5 +1,5 @@
-[![Version](https://img.shields.io/badge/Version-0.1.1-blue)](https://sharktank.streamlit.app)
-[![Status](https://img.shields.io/badge/Status-Coinalyze_Data-yellow)](https://sharktank.streamlit.app)
+[![Version](https://img.shields.io/badge/Version-0.1.2-blue)](https://sharktank.streamlit.app)
+[![Status](https://img.shields.io/badge/Status-Candlestick_chart-yellow)](https://sharktank.streamlit.app)
 [![Revision](https://img.shields.io/badge/Last_Edit-04_Nov_2023-green)](https://sharktank.streamlit.app)
 
 # Sharktank 🦈
@@ -39,5 +39,3 @@ git push -u origin main
 git reset --hard <commit-sha1-id>
 git push origin HEAD --force
 ```
-
-
