@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:wght@300&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,400;1,700&display=swap');
+* {font-family: 'Rubik', sans-serif;} */
+
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Rubik', sans-serif;
+font-family: 'Tourney', cursive; */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}
+
+
+a:hover {
+    color: #48b379 !important;
+    text-decoration: none;
+}
+
+p {
+    text-align: left;
+}
+
+ul {list-style-type: none;
+    text-align: left;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
